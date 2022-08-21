@@ -1,0 +1,6 @@
+n, m = (map(int, (input().split())))
+array = list(map(int, input().split()))
+A = set(map(int, input().split()))
+B = set(map(int, input().split()))
+happiness = (len(set(A.intersection(array)))-len(set(B.intersection(array))))
+print(happiness)
