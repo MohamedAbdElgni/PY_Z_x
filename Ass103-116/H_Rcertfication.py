@@ -2,13 +2,11 @@ import string
 alphabet_string = string.ascii_lowercase
 alpha_list = set(alphabet_string)
 numbers = {"0", "1", "2", "3", "4", "5", "6", "7", "8", "9"}
-s = '8hypotheticall024y6wxz'
+s = '212211mohamed'
 str_list = [str(z) for z in s]
 for i in s:
     if i in numbers:
         numbers.discard(i)
-
-
 for x in s:
     if x in alpha_list:
         alpha_list.discard(x)
